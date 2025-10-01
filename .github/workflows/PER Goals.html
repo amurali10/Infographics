@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Metric (NRR) Strategy Framework</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        .infographic-card {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease;
+        }
+        .infographic-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- Header and North Star Metric (Primary Goal) -->
+        <header class="text-center mb-12 py-8 bg-white rounded-xl shadow-lg border-b-4 border-indigo-600">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-2">The NRR Strategy Framework</h1>
+            <p class="text-xl text-indigo-600 font-semibold uppercase tracking-wider">A Senior CSE Leader's Playbook</p>
+        </header>
+
+        <!-- North Star Metric (NRR) Card -->
+        <div class="mb-12">
+            <div class="infographic-card p-6 md:p-10 bg-indigo-50 border-2 border-indigo-400 rounded-2xl text-center">
+                <p class="text-sm font-bold uppercase text-indigo-500 mb-2">Primary Goal (The North Star)</p>
+                <h2 class="text-4xl md:text-6xl font-black text-indigo-700">Net Revenue Retention (NRR)</h2>
+                <p class="mt-4 text-gray-700 max-w-2xl mx-auto text-lg">
+                    <span class="font-bold">Why it matters:</span> NRR is the ultimate business value metric. It captures both **retention** and **expansion**, making it the single metric that matters most to executive leadership.
+                </p>
+            </div>
+        </div>
+
+        <!-- Metrics Triumvirate: Leading, North Star, Lagging -->
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2">The Three Pillars of Measurement</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+
+            <!-- Leading Indicators (Input/Early Signals) -->
+            <div class="infographic-card bg-white p-6 rounded-2xl border-t-4 border-green-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    <h3 class="text-xl font-bold text-gray-900">1. Leading Indicators</h3>
+                </div>
+                <p class="text-sm text-gray-500 mb-4">These move first when playbooks are active.</p>
+                <ul class="space-y-3 text-gray-700 text-sm">
+                    <li><span class="font-semibold">Engagement Score $\Delta$:</span> Pre vs. post-playbook change.</li>
+                    <li><span class="font-semibold">Adoption Breadth/Depth:</span> # of modules used; % of active users.</li>
+                    <li><span class="font-semibold">Time to Value (TTV):</span> Speed of new feature adoption.</li>
+                    <li><span class="font-semibold">Playbook Execution Rate:</span> % of flagged accounts followed up.</li>
+                    <li><span class="font-semibold">Time to Intervention:</span> Speed of CSE response after score drops.</li>
+                    <li><span class="font-semibold">Efficiency:</span> ARR protected / Churn prevented per CSE hour.</li>
+                    <li><span class="font-semibold">Customer Sentiment:</span> NPS, CSAT, CES improvements.</li>
+                </ul>
+            </div>
+
+            <!-- NRR (North Star - The Link) -->
+            <div class="infographic-card bg-indigo-600 p-6 rounded-2xl flex flex-col justify-center text-center">
+                <div class="text-white">
+                    <p class="text-xl font-semibold mb-2">The Bridge</p>
+                    <p class="text-5xl font-black">NRR</p>
+                    <p class="mt-2 text-sm">Links CSE activity (Leading) to financial success (Lagging).</p>
+                </div>
+            </div>
+
+            <!-- Lagging Indicators (Output/Business Outcomes) -->
+            <div class="infographic-card bg-white p-6 rounded-2xl border-t-4 border-red-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-red-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path></svg>
+                    <h3 class="text-xl font-bold text-gray-900">2. Lagging Indicators</h3>
+                </div>
+                <p class="text-sm text-gray-500 mb-4">These are realized later, tied to contract cycles.</p>
+                <ul class="space-y-3 text-gray-700 text-sm">
+                    <li><span class="font-semibold">Churn Rate / GRR:</span> The ultimate measure of retention success.</li>
+                    <li><span class="font-semibold">Renewal Rate:</span> By Logo count and by Dollar amount.</li>
+                    <li><span class="font-semibold">Expansion ARR:</span> Cross-sell and Upsell revenue generated.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step-by-Step Strategic Framework -->
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2 mt-12">Strategic Framework: Predicting CSE Value</h2>
+
+        <div class="space-y-8">
+            <!-- Step 1 & 2 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="infographic-card bg-white p-6 rounded-2xl border-l-4 border-blue-500">
+                    <span class="text-4xl font-black text-blue-500 mr-3">1</span>
+                    <h3 class="text-xl font-bold text-gray-900 inline-block">Build the Renewal Universe</h3>
+                    <p class="mt-2 text-gray-700 text-sm">Extract all accounts renewing in the next 3–6–12 months. Segment by Strat/Commercial/SMB. This becomes your **denominator** (ARR at Risk).</p>
+                </div>
+                <div class="infographic-card bg-white p-6 rounded-2xl border-l-4 border-blue-500">
+                    <span class="text-4xl font-black text-blue-500 mr-3">2</span>
+                    <h3 class="text-xl font-bold text-gray-900 inline-block">Map CSE Coverage & Load</h3>
+                    <p class="mt-2 text-gray-700 text-sm">Identify the CSE assigned to each account. Check accounts per CSE and **flag coverage gaps** (accounts without an active CSE).</p>
+                </div>
+            </div>
+
+            <!-- Step 3 & 4 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="infographic-card bg-white p-6 rounded-2xl border-l-4 border-purple-500">
+                    <span class="text-4xl font-black text-purple-500 mr-3">3</span>
+                    <h3 class="text-xl font-bold text-gray-900 inline-block">Health Classification (Propensity)</h3>
+                    <p class="mt-2 text-gray-700 text-sm">Classify accounts into buckets using renewal models:</p>
+                    <ul class="mt-2 text-xs font-semibold space-y-1">
+                        <li class="text-green-600">🟢 **Green:** High likelihood to renew (Focus on expansion).</li>
+                        <li class="text-yellow-600">🟠 **Orange:** At-risk but recoverable with intervention.</li>
+                        <li class="text-red-600">🔴 **Red:** Likely churn without structural change.</li>
+                    </ul>
+                </div>
+                <div class="infographic-card bg-white p-6 rounded-2xl border-l-4 border-purple-500">
+                    <span class="text-4xl font-black text-purple-500 mr-3">4</span>
+                    <h3 class="text-xl font-bold text-gray-900 inline-block">Churn Attribution (Focus the Effort)</h3>
+                    <p class="mt-2 text-gray-700 text-sm">Separate churn risk into two types. **CSE Productivity can only influence the Non-Structural bucket.**</p>
+                    <ul class="mt-2 text-xs font-semibold space-y-1">
+                        <li>**Structural Churn:** Unavoidable (e.g., Acquisition, Sunset).</li>
+                        <li>**Non-Structural Churn:** Addressable via CSE action (Adoption, ROI proof, Exec relationships).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Step 5 & 6 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="infographic-card bg-white p-6 rounded-2xl border-l-4 border-amber-500">
+                    <span class="text-4xl font-black text-amber-500 mr-3">5</span>
+                    <h3 class="text-xl font-bold text-gray-900 inline-block">Model the "Lift" from Interventions</h3>
+                    <p class="mt-2 text-gray-700 text-sm">Establish baseline CSE productivity (e.g., avg. churn prevention, expansion \$ generated). Apply a **lift factor** to *Orange/Red non-structural* accounts:</p>
+                    <ul class="mt-2 text-xs font-semibold space-y-1">
+                        <li>Example: **Red** Non-Structural $\rightarrow$ 20% Save Rate.</li>
+                        <li>Example: **Orange** Non-Structural $\rightarrow$ 40% Save Rate.</li>
+                    </ul>
+                </div>
+                <div class="infographic-card bg-white p-6 rounded-2xl border-l-4 border-amber-500">
+                    <span class="text-4xl font-black text-amber-500 mr-3">6</span>
+                    <h3 class="text-xl font-bold text-gray-900 inline-block">Translate to $ Impact</h3>
+                    <p class="mt-2 text-gray-700 text-sm">Multiply the "lift-adjusted" save rates by the ARR at risk in those buckets. The sum is your **Value Creation Forecast** from deploying engagement-driven playbooks.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
